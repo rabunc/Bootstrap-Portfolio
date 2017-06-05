@@ -6,45 +6,63 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 
+
+</ul>
 </head>
 
-<body class="Site">
-<header>
-    <div id="logo"><h1>Ryan Bregier</h1></div>
-    <div id="menu">
-        <ul id>
+<body>
+<div class = "row">
+    <div class = "col-md-12">
+        <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+            <a class="navbar-brand"><h1>Ryan Bregier</h1></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
+            </ul>
+        </div>
     </div>
-</header>
+  </div>
+</nav>
 
-<main class="Site-content">
-    <div id="form-box">
-        <h2>Contact</h2>
-        <hr>
-        <form>
-          <label for="name">Name</label>
-          <input type="text" type="text" id="name" name="name" placeholder="John Doe">
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="example@gmail.com">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Your Message Here"></textarea>
-          <button id="submit-button">Submit</button>
-        </form>
-
-
-    </div>
-    <div id="connect-box">
+<div class="container">
+    <div class="row" id="contact-me-form">
+        <div class="col-md-7">
+        <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                <label for="name">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Your Name" name="name">
+                </div>
+                <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your email" name="email">
+                </div>
+                <div class="Message">
+                    <label class="control-label " for="message">Message</label>
+                    <textarea class="form-control" cols="40" id="message" name="message" rows="10" placeholder="Enter your message here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    <div class="col-md-5" id="connect-with-me">
         <h3>Connect with me</h3>
         <hr>
         <a href="https://twitter.com/bregier" target="_blank"><img class="icon" src=assets/images/Twitter-icon.png alt="Twitter"></a>
         <a href="http://stackoverflow.com/users/746073/rabunc" target="_blank"><img class="icon" src=assets/images/Stack-overflow-128.png alt="Stack Overflow"></a>
         <a href="https://github.com/rabunc" target="_blank"><img class="icon" src=assets/images/Github-128.png alt="Github"></a>
     </div>
+</div>
+</div>
+
 </main>
 
 
