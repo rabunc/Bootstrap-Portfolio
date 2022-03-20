@@ -1,51 +1,54 @@
 .icon {
-    max-width: 80px;
+  max-width: 80px;
 }
 
 #profile-pic {
-    max-width: 200px;
-    margin-right: 20px;
-    border: none;
+  max-width: 200px;
+  margin-right: 20px;
+  border: none;
 }
 
 .navbar {
-    background-color:#4aaaa5;
-    height: 100px;
-    border: none;
+  background-color: #4aaaa5;
+  height: 100px;
+  border: none;
 }
 
 .navbar-header {
-    color: white;
+  color: white;
 }
 
 .navbar-right {
-    padding: 20px;
+  padding: 20px;
+}
 
+h1 #name-header {
+  color: white;
 }
 
 main {
-    margin: 20px;
+  margin: 20px;
 }
 
 #about-me {
-    margin-right: 0px;
-    padding: 20px;
+  margin-right: 0px;
+  padding: 20px;
 }
 
 #connect-with-me {
-    padding: 20px;
+  padding: 20px;
 }
 
 footer {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #4aaaa5;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #4aaaa5;
 }
 
 .project-image {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 #portfolio {
-    float:left;
+  float: left;
 }
